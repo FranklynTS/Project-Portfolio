@@ -1,0 +1,30 @@
+html{
+    text-align: center;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+header{
+    font-size: 70px;
+   
+
+}
+.inset-text-effect {
+        display: inline-block;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        border: none;
+        font: normal 80px/1 "Aladin", Helvetica, sans-serif;
+        color: rgba(48,48,48,1);
+        text-align: center;
+        text-transform: normal;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        white-space: pre;
+        text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+      }
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
