@@ -1,24 +1,27 @@
-html{
-    text-align: center;
-    background: #bdc3c7; 
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); 
-     
+html {
+    background-image: url("images/102.JPG");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+
 header{
     font-size: 70px;
-   
-
+    color: white;
+    
+    
 }
+
 .inset-text-effect {
-        display: inline-block;
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
+    display: inline-block;
+    padding: 18px 0px 0px 140px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
         border: none;
         font: normal 80px/1 "Aladin", Helvetica, sans-serif;
-        color: rgba(48,48,48,1);
-        text-align: center;
         text-transform: normal;
         -o-text-overflow: clip;
         text-overflow: clip;
@@ -27,13 +30,23 @@ header{
       }
 h2{
     font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    padding: 70px 150px;
+    text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
+    
 }
-#photo{
-    height: 520px;
-    width: 600px;
-    box-shadow: 10px 10px 5px #888888;
+#links {
+    text-align: right;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 150px 40px 10px 0px;
 }
-#bus{
-    height: 300px;
-    width: 400px;
+a:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+a:hover {
+    color: #5FB0FF;
+    background-color: transparent;
+    font-size: 25px;
 }
